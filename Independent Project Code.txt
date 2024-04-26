@@ -255,10 +255,6 @@ screen htseq3
 htseq-count -f bam -r name SRR12876848_gill_C1_name_sorted.bam /home/grdstd6/ncbi_dataset/data/GCF_000002035.6/genomic.gtf > SRR12876848_gill_C1_htseq_counts.txt
 
 
-
-
- 
-
 #############################################################################################################
 # Step 4: Redo alignment/mapping using salmon- better than STAR for well annotated genomes
 # First need to make salmon decoy.txt file (containing the sequence ids) and use this to run salmon indexing.
