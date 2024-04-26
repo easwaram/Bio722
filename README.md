@@ -608,7 +608,7 @@
             intgroup=c("background"),
             ntop = 2000)
 
-###########################################################################################################
+
 ## Step 8: DESeq2 on HTSeq count matrix
 
 ### Let's test out DESeq2 on the entire imported dataset first
