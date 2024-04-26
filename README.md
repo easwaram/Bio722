@@ -287,7 +287,7 @@
     done
 
 ### Most likely library type (-l A) was determined as IU
-### can use --writeMappings argument for getting mapping information in SAM like file output - then run ReSEQC on this? Or is it not needed since I have % mapping rate information from the log
+### can use --writeMappings argument for getting mapping information in SAM like file output - I have % mapping rate information from the log
 
 ###########################################################################################################
 ## Step 7: Use tximport for salmon
@@ -392,7 +392,7 @@
             intgroup=c("background"),
             ntop = 2000)
 
-###########################################################################################################
+
 ## Step 8: DESEq2 on tximport salmon counts
 ### Let's test out DESeq2 on the entire imported dataset first
     ddsTxi2 <- DESeq(ddsTxi)
