@@ -96,7 +96,6 @@
 
 #!/bin/bash
 
-
     for infile in {sample_dir}/*_R1_PE.fastq
     do
     index_dir=/home/grdstd6/hisat2_index/drerio_index_GRCz11
