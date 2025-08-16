@@ -124,7 +124,7 @@
 
     done
 
-###########################################################################################################
+
 ## Step 5: QoRTS
 
 ### The below is stored in the "qorts.sh" script
@@ -288,7 +288,7 @@
 ### Most likely library type (-l A) was determined as IU
 ### can use --writeMappings argument for getting mapping information in SAM like file output - I have % mapping rate information from the log
 
-###########################################################################################################
+
 ## Step 7: Use tximport for salmon
 
     if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -514,7 +514,7 @@
     rownames(txi.up)
     write.csv(rownames(txi.down), file = "txi_down_genes.csv")
 
-###########################################################################################################
+
 ## Step 7: Import HTSeq- count data
 
     setwd("/Users/melli/OneDrive/Desktop/htseq_counts")
