@@ -1,5 +1,4 @@
-# Bio722
-## RNA-Seq DEG analysis Project
+# RNA-Seq DEG analysis Project
 
 ### 1. FastQC to check read quality
 ### 2. Trimmomatic or Cutadapt or FastP for trimming
